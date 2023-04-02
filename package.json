@@ -1,0 +1,30 @@
+{
+  "name": "jokes_backend",
+  "version": "1.0.0",
+  "description": "a backend for dev jokes collected and displayed in a react.js frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonicaDallaPria/dev-jokes-in-express.git"
+  },
+  "author": "Monica Hailwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonicaDallaPria/dev-jokes-in-express/issues"
+  },
+  "homepage": "https://github.com/MonicaDallaPria/dev-jokes-in-express#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "pg": "^8.10.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "prettier": "2.8.4"
+  }
+}
